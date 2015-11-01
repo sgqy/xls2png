@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xls2png", "xls2png\xls2png.csproj", "{C05CAC71-93D4-490D-A191-E95FE3190F0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05CAC71-93D4-490D-A191-E95FE3190F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05CAC71-93D4-490D-A191-E95FE3190F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05CAC71-93D4-490D-A191-E95FE3190F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05CAC71-93D4-490D-A191-E95FE3190F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
