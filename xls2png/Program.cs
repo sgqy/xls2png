@@ -10,7 +10,7 @@ namespace xls2png
         static void Main(string[] args)
         {
             // open file
-            Console.WriteLine("xlstopng: please wait...");
+            Console.WriteLine("xls2png: please wait...");
 
             var eapp = new Excel.Application();
             eapp.Visible = false;
@@ -33,13 +33,13 @@ namespace xls2png
                 // export pic
                 var img = Clipboard.GetImage();
                 if (img != null) { img.Save(args[1]); img.Dispose(); }
-                else { Console.WriteLine("xlstopng: image not copied"); }
+                else { Console.WriteLine("xls2png: image not copied"); }
 
                 // close file                
                 wb.Close(true);
-                Console.WriteLine("xlstopng: done");
+                Console.WriteLine("xls2png: done");
             }
-            catch (Exception ec) { Console.WriteLine("xlstopng: " + ec.GetType() + ": " + ec.Message); }
+            catch (Exception ec) { Console.WriteLine("xls2png: " + ec.GetType() + ": " + ec.Message); }
             finally { eapp.Quit(); }
         }
     }
